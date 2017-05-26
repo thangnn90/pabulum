@@ -23,7 +23,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-title" content="Material Design Lite">
-    <link rel="apple-touch-icon-precomposed" href="images/ios-desktop.png">
+    <link rel="apple-touch-icon-precomposed" href="images/system/ios-desktop.png">
 
     <!-- Tile icon for Win8 (144x144 + tile color) -->
     <meta name="msapplication-TileImage" content="images/touch/ms-touch-icon-144x144-precomposed.png">
@@ -80,7 +80,7 @@
     </header>
     <div class="demo-drawer mdl-layout__drawer mdl-color--blue-grey-900 mdl-color-text--blue-grey-50">
         <header class="demo-drawer-header">
-            <img src="images/user.jpg" class="demo-avatar">
+            <img src="images/system/user.jpg" class="demo-avatar">
             <div class="demo-avatar-dropdown">
                 <span>hello@example.com</span>
                 <div class="mdl-layout-spacer"></div>
@@ -121,39 +121,50 @@
     </div>
     <main class="mdl-layout__content mdl-color--grey-100">
         <div class="mdl-grid demo-content">
-            <div class="demo-charts mdl-color--white mdl-shadow--2dp mdl-cell mdl-cell--12-col mdl-grid">
-                <svg fill="currentColor" width="200px" height="200px" viewBox="0 0 1 1"
-                     class="demo-chart mdl-cell mdl-cell--4-col mdl-cell--3-col-desktop">
-                    <use xlink:href="#piechart" mask="url(#piemask)">
-                        <text x="0.5" y="0.5" font-family="Roboto" font-size="0.3" fill="#888" text-anchor="middle"
-                              dy="0.1">82
-                            <tspan font-size="0.2" dy="-0.07">%</tspan>
-                        </text>
-                </svg>
-                <svg fill="currentColor" width="200px" height="200px" viewBox="0 0 1 1"
-                     class="demo-chart mdl-cell mdl-cell--4-col mdl-cell--3-col-desktop">
-                    <use xlink:href="#piechart" mask="url(#piemask)">
-                        <text x="0.5" y="0.5" font-family="Roboto" font-size="0.3" fill="#888" text-anchor="middle"
-                              dy="0.1">82
-                            <tspan dy="-0.07" font-size="0.2">%</tspan>
-                        </text>
-                </svg>
-                <svg fill="currentColor" width="200px" height="200px" viewBox="0 0 1 1"
-                     class="demo-chart mdl-cell mdl-cell--4-col mdl-cell--3-col-desktop">
-                    <use xlink:href="#piechart" mask="url(#piemask)">
-                        <text x="0.5" y="0.5" font-family="Roboto" font-size="0.3" fill="#888" text-anchor="middle"
-                              dy="0.1">82
-                            <tspan dy="-0.07" font-size="0.2">%</tspan>
-                        </text>
-                </svg>
-                <svg fill="currentColor" width="200px" height="200px" viewBox="0 0 1 1"
-                     class="demo-chart mdl-cell mdl-cell--4-col mdl-cell--3-col-desktop">
-                    <use xlink:href="#piechart" mask="url(#piemask)">
-                        <text x="0.5" y="0.5" font-family="Roboto" font-size="0.3" fill="#888" text-anchor="middle"
-                              dy="0.1">82
-                            <tspan dy="-0.07" font-size="0.2">%</tspan>
-                        </text>
-                </svg>
+            <div class="mdl-cell mdl-cell--8-col">
+                <table class="mdl-data-table mdl-js-data-table mdl-data-table--selectable mdl-shadow--2dp">
+                    <thead>
+                    <tr>
+                        <th>Mã</th>
+                        <th>Hình ảnh</th>
+                        <th>Tên món ăn</th>
+                        <th>Loại món ăn</th>
+                        <th>Mô tả</th>
+                        <th>Nội dung</th>
+                        <th></th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr>
+                        <td>25</td>
+                        <td>$2.90</td>
+                        <td>25</td>
+                        <td>$2.90</td>
+                        <td>Tables are a ubiquitous feature of most user interfaces, regardless of a site's content or function. Their design and use is therefore an important factor in the overall user experience. See the data-table component's Material Design specifications page for details.</td>
+                        <td>$2.90</td>
+                        <td>$2.90</td>
+
+                    </tr>
+                    <tr>
+                        <td>25</td>
+                        <td>$2.90</td>
+                        <td>25</td>
+                        <td>$2.90</td>
+                        <td>25</td>
+                        <td>$2.90</td>
+                        <td>$2.90</td>
+                    </tr>
+                    <tr>
+                        <td>25</td>
+                        <td>$2.90</td>
+                        <td>25</td>
+                        <td>$2.90</td>
+                        <td>25</td>
+                        <td>$2.90</td>
+                        <td>$2.90</td>
+                    </tr>
+                    </tbody>
+                </table>
             </div>
             <div class="demo-graphs mdl-shadow--2dp mdl-color--white mdl-cell mdl-cell--8-col">
                 <svg fill="currentColor" viewBox="0 0 500 250" class="demo-graph">
@@ -283,10 +294,10 @@
         </g>
     </defs>
 </svg>
-<a href="https://github.com/google/material-design-lite/blob/master/templates/dashboard/" target="_blank"
+<a href="#" target="_blank"
    id="view-source"
-   class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast">View
-    Source</a>
+   class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-color--accent mdl-color-text--accent-contrast">Android
+    play</a>
 <script src="dist/material.min.js"></script>
 </body>
 </html>
