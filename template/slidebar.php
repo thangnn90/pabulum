@@ -32,9 +32,9 @@
                 </a>
             </li>
             <li>
-                <a href="table.html">
+                <a href="../pabulum.php">
                     <i class="ti-view-list-alt"></i>
-                    <p>Table List</p>
+                    <p>Pabulum List</p>
                 </a>
             </li>
             <li>

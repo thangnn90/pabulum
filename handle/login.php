@@ -5,7 +5,7 @@
  * Date: 26/05/2017
  * Time: 11:11
  */
-$conn = mysqli_connect("localhost", "root", "", "test");
+$conn = mysqli_connect("localhost", "root", "", "pabulum");
 if (!$conn) {
     echo "connect fail" . mysqli_connect_error();
 }
