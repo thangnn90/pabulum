@@ -40,7 +40,7 @@
             <li>
                 <a href="../pabulum.php?type=3">
                     <i class="ti-text"></i>
-                    <p>Cẩm nang vào bếp</p>
+                    <p>Sổ tay vào bếp</p>
                 </a>
             </li>
             <li>
@@ -53,6 +53,12 @@
                 <a href="../pabulum.php?type=5">
                     <i class="ti-map"></i>
                     <p>Ẩm thực thế giới</p>
+                </a>
+            </li>
+            <li>
+                <a href="../categories.php">
+                    <i class="ti-credit-card"></i>
+                    <p>Danh mục</p>
                 </a>
             </li>
             <li>

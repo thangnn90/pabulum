@@ -73,3 +73,14 @@ li img {
     text-align: center;
     font-size: 1.6rem;
 }
+.fixed-action-btn ul {
+    left: 0;
+    right: 0;
+    text-align: center;
+    position: absolute;
+    bottom: 64px;
+    margin: 0;
+}
+.fixed-action-btn ul li {
+    margin-bottom: 15px;
+}

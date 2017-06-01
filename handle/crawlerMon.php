@@ -38,12 +38,12 @@ foreach ($items as $item) {
     $like = str_replace(' lượt thích', ' ', $jobs['like']);
     $view_rep = str_replace(',', '', $view);
     $like_rep = str_replace(',', '', $like);
-    $query = "SELECT * FROM pabulum where name='$title'";
+    $query = "SELECT * FROM pabulum where name='$title' WHERE cate_id=1";
     if ($result_exits = mysqli_query($con, $query)) {
         if (mysqli_num_rows($result_exits) > 0) {
             echo 'Tồn tại tin trong dữ liệu' . "<br>";
         } else {
-            $sql = "INSERT INTO pabulum(name,img,content,view_number,like_number) VALUES ('$title','$img','$noidung',$view_rep,$like_rep)";
+            $sql = "INSERT INTO pabulum(cate_id,name,img,content,view_number,like_number) VALUES (1,'$title','$img','$noidung',$view_rep,$like_rep)";
             $result = mysqli_query($con, $sql);
             if (!$result) {
                 echo 'Lỗi';
