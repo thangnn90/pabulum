@@ -32,27 +32,27 @@
                 </a>
             </li>
             <li>
-                <a href="../pabulum.php">
+                <a href="../pabulum.php?type=1">
                     <i class="ti-view-list-alt"></i>
-                    <p>Pabulum List</p>
+                    <p>Công thức</p>
                 </a>
             </li>
             <li>
-                <a href="typography.html">
+                <a href="../pabulum.php?type=3">
                     <i class="ti-text"></i>
-                    <p>Typography</p>
+                    <p>Cẩm nang vào bếp</p>
                 </a>
             </li>
             <li>
-                <a href="icons.html">
+                <a href="../pabulum.php?type=4">
                     <i class="ti-pencil-alt2"></i>
-                    <p>Icons</p>
+                    <p>Mẹ & bé</p>
                 </a>
             </li>
             <li>
-                <a href="maps.html">
+                <a href="../pabulum.php?type=5">
                     <i class="ti-map"></i>
-                    <p>Maps</p>
+                    <p>Ẩm thực thế giới</p>
                 </a>
             </li>
             <li>

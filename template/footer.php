@@ -54,6 +54,7 @@
 <script src="assets/js/paper-dashboard.js"></script>
 <!-- Paper Dashboard DEMO methods, don't include it in your project! -->
 <script src="assets/js/demo.js"></script>
+<script src="//cdn.ckeditor.com/4.7.0/basic/ckeditor.js"></script>
 <script type="text/javascript">
     $(document).ready(function () {
         demo.initChartist();
@@ -64,6 +65,22 @@
             type: 'success',
             timer: 4000
         });
+        $("#search-box").keyup(function () {
+            $.ajax({
+                type: "POST",
+                url: "handle/suggesstion_mon.php",
+                data: 'keyword=' + $(this).val(),
+                beforeSend: function () {
+                    $("#search-box").css("background", "#FFF url(assets/img/background/LoaderIcon.gif) no-repeat 165px");
+                },
+                success: function (data) {
+                    $("#suggesstion-box").show();
+                    $("#suggesstion-box").html(data);
+                    $("#search-box").css("background", "#FFF");
+                }
+            });
+        });
+
     });
 </script>
 

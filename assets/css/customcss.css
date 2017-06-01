@@ -1,0 +1,75 @@
+#country-list {
+    float: left;
+    list-style: none;
+    /*margin-top: -3px;*/
+    padding: 0;
+    position: absolute;
+    z-index: 99999;
+}
+
+#country-list li {
+    padding: 10px;
+    background: #f0f0f0;
+    border-bottom: #bbb9b9 1px solid;
+    overflow: auto;
+}
+
+#country-list li:hover {
+    background: #ece3d2;
+    cursor: pointer;
+}
+
+#search-box {
+    padding: 10px;
+    border: #a8d4b1 1px solid;
+    border-radius: 4px;
+}
+
+li img {
+    float: left;
+    margin: 0 15px 0 0;
+}
+
+.fixed-action-btn {
+    position: fixed;
+    right: 23px;
+    bottom: 23px;
+    padding-top: 15px;
+    margin-bottom: 0;
+    z-index: 998;
+}
+
+.btn-floating {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    width: 37px;
+    height: 37px;
+    padding: 0;
+    background-color: #a6c;
+    border-radius: 50%;
+    -webkit-transition: .3s;
+    transition: .3s;
+    margin: 10px;
+}
+
+.btn-floating, .btn-floating i {
+    display: inline-block;
+    line-height: 37px;
+    color: #fff;
+}
+
+.btn-floating.btn-large {
+    width: 55.5px;
+    height: 55.5px;
+}
+
+.btn-floating.btn-large i {
+    line-height: 55.5px;
+}
+
+.btn-floating i {
+    width: inherit;
+    text-align: center;
+    font-size: 1.6rem;
+}
